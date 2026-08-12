@@ -11,5 +11,5 @@ class TaskResponse(BaseModel):
     priority: str
     due_date_hint: Optional[str] = None
     project_id: int
-
-model_config = {"from_attributes": True}
+    
+    model_config = {"from_attributes": True}
